@@ -42,7 +42,7 @@
 class cpan (
   Boolean $manage_package,
   Hash $config_hash,
-  String $package_name,
+  Tuple $package_name,
   Optional[Array[String[1]]] $config_file = undef,
   Optional[Array[String[1]]] $config_dir = undef,
   String $package_ensure        = 'present',
